@@ -13,7 +13,7 @@ gems: [ImageTag]
 
 # Prose
 prose:
-  media: 'media'
+  media: '/jekyll/media'
 
 # Collections
 collections: [music]
