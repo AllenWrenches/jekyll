@@ -12,8 +12,7 @@ github_username:  jekyll
 gems: [ImageTag]
 
 # Collections
-collections:
-	music
+collections: [music]
 
 # Build settings
 markdown: kramdown
