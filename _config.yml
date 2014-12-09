@@ -11,6 +11,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 gems: [ImageTag]
 
+# Prose
+prose:
+  media: 'media'
+
 # Collections
 collections: [music]
 
