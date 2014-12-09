@@ -8,4 +8,4 @@ tags:
   - mangos
 ---
 
-![Nov2011_RightInside.jpg](/media/Nov2011_RightInside.jpg)
+![Nov2011_RightInside.jpg](/jekyll/media/Nov2011_RightInside.jpg)
