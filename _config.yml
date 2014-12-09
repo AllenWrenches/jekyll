@@ -19,7 +19,6 @@ markdown: kramdown
 
 permalink: pretty
 prose:
-  rooturl: '_posts'
   media: 'media'
   metadata:
     _posts:
