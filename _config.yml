@@ -19,7 +19,7 @@ markdown: kramdown
 
 permalink: pretty
 prose:
-  media: 'media'
+  media: '/jekyll/media'
   metadata:
     _posts:
       - name: "category"
