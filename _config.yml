@@ -12,7 +12,16 @@ github_username:  jekyll
 gems: [ImageTag]
 
 # Collections
-collections: [ Chapter1, Chapter2, Chapter3]
+collections: 
+	Chapter1:
+      output: true
+      permalink: /awesome/:path/
+    Chapter2:
+      output: true
+      permalink: /awesome/:path/
+    Chapter3:
+      output: true
+      permalink: /awesome/:path/
 
 # Build settings
 markdown: kramdown
