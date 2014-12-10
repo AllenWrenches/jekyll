@@ -37,7 +37,7 @@ prose:
           value: ""
       - name: "Chapter"
         field:
-          element: "chapter"
+          element: "select"
           label: "Select Chapter"
           placeholder: "Select Chapter"
           options:
