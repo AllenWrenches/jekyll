@@ -15,6 +15,12 @@ collections:
   Chapter1:
     output: true
     permalink: :path/
+  Chapter2:
+    output: true
+    permalink: :path/
+  Chapter3:
+    output: true
+    permalink: :path/
 
 # Build settings
 markdown: kramdown
