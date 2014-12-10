@@ -25,16 +25,6 @@ prose:
         field:
           element: "hidden"
           value: "blog"
-      - name: "layout"
-        field:
-          element: "select"
-          label: "Layout:"
-          placeholder: "Choose Layout"
-          options:
-          	- name: "Content"
-              value: "content"
-          	- name: "Accordion"
-              value: "accordion"
       - name: "title"
         field:
           element: "text"
