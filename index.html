@@ -23,7 +23,7 @@ published: true
   
   <h1 class="page-heading">Chapter 1</h1>
   
-	{% for post in site.Chapter1 %}
+	{% for post in site.posts %}
 	    <h2>
 	      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	    </h2>
