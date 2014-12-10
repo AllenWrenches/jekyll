@@ -30,12 +30,7 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "splash"
-        field:
-          element: "text"
-          label: "Splash image"
-          value: ""
-      - name: "Chapter"
+      - name: "chapter"
         field:
           element: "select"
           label: "Select Chapter"
@@ -47,6 +42,21 @@ prose:
               value: "chapter2"
             - name: "Chapter 3"
               value: "chapter3"
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Layout"
+          placeholder: "Choose Layout"
+          options:
+            - name: "Content"
+              value: "content"
+            - name: "Accordion"
+              value: "accordion"
+      - name: "splash"
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""
       - name: "tags"
         field:
           element: "multiselect"
