@@ -14,7 +14,7 @@ github_username:  jekyll
 collections:
   Chapter1:
     output: true
-    permalink: /awesome/:path/
+    permalink: :path/
 
 # Build settings
 markdown: kramdown
