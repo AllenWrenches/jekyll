@@ -11,7 +11,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Collections
-collections: [ Chapter1, Chapter2, Chapter3]
+collections: [Chapter1, Chapter2, Chapter3]
 
 # Build settings
 markdown: kramdown
@@ -27,8 +27,14 @@ prose:
           value: "blog"
       - name: "layout"
         field:
-          element: "hidden"
-          value: "post"
+          element: "select"
+          label: "Layout:"
+          placeholder: "Choose Layout"
+          options:
+          	- name: "Content"
+              value: "content"
+          	- name: "Accordion"
+              value: "accordion"
       - name: "title"
         field:
           element: "text"
@@ -39,6 +45,18 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
+      - name: "chapter"
+      	field:
+      	  element: "select"
+          label: "Chapter:"
+          placeholder: "Choose Chapter"
+          options:
+          	- name: "Chapter 1"
+              value: "chapter1"
+          	- name: "Chapter 2"
+              value: "chapter2"
+          	- name: "Chapter 3"
+              value: "chapter3"
       - name: "tags"
         field:
           element: "multiselect"
