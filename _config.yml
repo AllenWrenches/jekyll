@@ -35,6 +35,18 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
+      - name: "Chapter"
+        field:
+          element: "chapter"
+          label: "Select Chapter"
+          placeholder: "Select Chapter"
+          options:
+            - name: "Chapter 1"
+              value: "chapter1"
+            - name: "Chapter 2"
+              value: "chapter2"
+            - name: "Chapter 3"
+              value: "chapter3"
       - name: "tags"
         field:
           element: "multiselect"
