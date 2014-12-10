@@ -12,10 +12,7 @@ github_username:  jekyll
 gems: [ImageTag]
 
 # Collections
-collections: 
-	- Chapter1
-    - Chapter2
-    - Chapter3
+collections: [ Chapter1, Chapter2, Chapter3]
 
 # Build settings
 markdown: kramdown
