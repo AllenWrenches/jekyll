@@ -11,7 +11,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Collections
-collections: [Chapter1, Chapter2, Chapter3]
+collections:
+  Chapter1:
+    output: true
+    permalink: /awesome/:path/
 
 # Build settings
 markdown: kramdown
