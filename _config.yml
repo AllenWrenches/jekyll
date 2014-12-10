@@ -9,7 +9,6 @@ baseurl: "/jekyll" # the subpath of your site, e.g. /blog/
 url: "http://allenwrenches.github.io/jekyll" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-gems: [ImageTag]
 
 # Collections
 collections: [ Chapter1, Chapter2, Chapter3]
