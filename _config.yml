@@ -13,15 +13,15 @@ gems: [ImageTag]
 
 # Collections
 collections: 
-	Chapter1:
-      output: true
-      permalink: /awesome/:path/
-    Chapter2:
-      output: true
-      permalink: /awesome/:path/
-    Chapter3:
-      output: true
-      permalink: /awesome/:path/
+	- Chapter1:
+        output: true
+        permalink: /awesome/:path/
+    - Chapter2:
+        output: true
+        permalink: /awesome/:path/
+    - Chapter3:
+        output: true
+        permalink: /awesome/:path/
 
 # Build settings
 markdown: kramdown
