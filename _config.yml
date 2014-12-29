@@ -59,7 +59,7 @@ prose:
       - name: "InNav"
         field:
           element: "button"
-          label: "SubNav?"
+          label: "SubNav"
           on: "on"
           off: "off"
       - name: "layout"
