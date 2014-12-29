@@ -56,6 +56,12 @@ prose:
               value: "chapter2"
             - name: "Chapter 3"
               value: "chapter3"
+      - name: "InNav"
+        field:
+          element: "button"
+          label: "SubNav?"
+          on: "on"
+          off: "off"
       - name: "layout"
         field:
           element: "select"
